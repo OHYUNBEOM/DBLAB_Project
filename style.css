@@ -1,29 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
-/* https://fonts.google.com/specimen/Gugi?subset=korean#glyphs */
-/* 해당 구글 폰트 적용 */
-@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@300;500;700&display=swap');
-/* https://fonts.google.com/specimen/Sunflower?subset=korean#standard-styles
-해당 구글 폰트 적용 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 body
 {
     margin: 15px;;
 }
 a{
-    color:black;
+    color:white;
     text-decoration: none;
 }
 h1 
 {
-    font-family: 'Sunflower',sans-serif;
+    background-color: black; 
+    font-family: 'Nanum Gothic',sans-serif;
     font-size:45px;
     text-align:center;
-    border-bottom:3px solid grey;
+    border-bottom:3px solid #ffffff;
     margin:0;
     padding:20px;
 }
+#menu_background
+{
+    background-color: black;
+}
 h2
 {
-    font-family: 'Sunflower',sans-serif;
+    font-family: 'Nanum Gothic',sans-serif;
     padding:5px;
     font-size:30px;
     color:grey;
@@ -31,17 +31,18 @@ h2
 }
 ol
 {
-    border-right:3px solid grey;
+    font-size:20px;
+    color:white;
+    /* border-right:3px solid grey; */
     width:300px;
     margin:5px;
-    padding:15px;
+    padding:25px;
 }
 li
 {
-    font-family: 'Gugi',cursive;
-    font-size:16px;
+    font-family: 'Nanum Gothic',sans-serif;
+    font-size:20px;
     font-weight: bold;
-    text-decoration: underline;
     padding:15px;
 }
 #grid
@@ -54,14 +55,18 @@ li
     font-size:20px;
     color:grey;
 }
-
+#menu
+{
+    font-size:25px;
+    border-bottom: 1px solid #ffffff;
+}
 #ingredient
 {
     overflow-x:auto;
 }
 table
 {
-    font-family: 'Sunflower',sans-serif;
+    font-family: 'Nanum Gothic',sans-serif;
     width:90%;
     /* border-top:1px solid #444444;
     border-bottom:1px solid #444444;
@@ -73,7 +78,7 @@ table
 }
 #Mainpage
 {
-    font-family: 'Sunflower',sans-serif;
+    font-family: 'Nanum Gothic',sans-serif;
 }
 #ingredient_table
 {
@@ -129,7 +134,7 @@ tr
 }
 h3
 {
-    font-family: 'Sunflower',sans-serif;
+    font-family: 'Nanum Gothic',sans-serif;
     font-size:30px;
     color:grey;
     border-bottom:3px solid grey; 
@@ -141,7 +146,7 @@ h3
 }
 h4
 {
-    font-family: 'Sunflower',sans-serif;
+    font-family: 'Nanum Gothic',sans-serif;
     font-size:30px;
     color:grey;
     border-bottom:3px solid grey;
