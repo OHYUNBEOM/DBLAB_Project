@@ -101,6 +101,7 @@ table
 }
 th,td
 {
+    font-family: 'Nanum Gothic',sans-serif;
     /* border-bottom: 1px solid #444444; */
     padding-left:10px;
     padding:10px;
@@ -113,15 +114,19 @@ th,td
 }
 thead tr
 {
+    font-family: 'Nanum Gothic',sans-serif;
     padding-left:10px;
+    font-weight: bold;
     background-color:black;
     color:#ffffff;
     overflow-x:auto;
     overflow-y:auto;
+    height:70px;
     /* border-radius:16px; */
 }
 #mainpage
 {
+    font-family: 'Nanum Gothic',sans-serif;
     width:35%;
 }
 tr
