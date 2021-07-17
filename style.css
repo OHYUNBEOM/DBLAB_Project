@@ -7,6 +7,26 @@ a{
     color:white;
     text-decoration: none;
 }
+.gamachi
+{
+    color:tan;
+}
+.gukbap
+{
+    color:tan;
+}
+.mcdonald
+{
+    color:tan;
+}
+.momstouch
+{
+    color:tan;
+}
+.subway
+{
+    color:tan;
+}
 h1 
 {
     background-color: black; 
@@ -16,6 +36,38 @@ h1
     border-bottom:3px solid #ffffff;
     margin:0;
     padding:20px;
+}
+h2
+{
+    font-family: 'Nanum Gothic',sans-serif;
+    padding:5px;
+    font-size:30px;
+    color:black;
+    border-bottom:3px solid black;
+}
+h3
+{
+    font-family: 'Nanum Gothic',sans-serif;
+    font-size:30px;
+    color:black;
+    border-bottom:3px solid black; 
+    padding:5px;
+}
+h4
+{
+    font-family: 'Nanum Gothic',sans-serif;
+    font-size:30px;
+    color:black;
+    border-bottom:3px solid black;
+    padding:5px;
+}
+h5
+{
+    font-family: 'Nanum Gothic',sans-serif;
+    padding:5px;
+    font-size:30px;
+    color:black;
+    border-bottom:3px solid black;
 }
 #menu_background
 {
@@ -27,7 +79,7 @@ h2
     padding:5px;
     font-size:30px;
     color:black;
-    border-bottom:3px solid grey;
+    border-bottom:3px solid black;
 }
 ol
 {
@@ -53,29 +105,18 @@ li
 #Mainpage
 {
     font-size:20px;
-    color:grey;
+    color:black;
 }
 #menu
 {
     font-size:25px;
     border-bottom: 1px solid #ffffff;
 }
-#ingredient
+#menu_select
 {
-    overflow-x:auto;
-}
-table
-{
-    padding-left:10px;
-    font-family: 'Nanum Gothic',sans-serif;
-    width:90%;
-    /* border-top:1px solid #444444;
-    border-bottom:1px solid #444444;
-    border-collapse: collapse; */
-    overflow-x:auto;
-    overflow-y:auto;
-    /* border-radius:16px; */
-    /* box-shadow:inset 0 0 8px black; */
+    padding-top:33px;
+    font-size:25px;
+    border-bottom: 1px solid #ffffff;
 }
 #Mainpage
 {
@@ -83,9 +124,13 @@ table
 }
 #ingredient_table
 {
-    width:40%;
+    width:60%;
     overflow-x:auto;
     overflow-y:auto;
+}
+#ingredient
+{
+    overflow-x:auto;
 }
 #Allergy_table
 {
@@ -93,76 +138,87 @@ table
     overflow-x:auto;
     overflow-y:auto;
 }
-#ingredient_table_alot
+#ingredient_table_subway
 {
     width:70%;
     overflow-x:auto;
     overflow-y:auto;
 }
+#Nutrition_Information
+{
+    overflow-x:auto;
+}
+#Allergy
+{
+    overflow-x:auto;
+}
+table
+{
+    font-weight: bold;
+    padding-left:10px;
+    font-family: 'Nanum Gothic',sans-serif;
+    width:100%;
+    overflow-x:auto;
+    overflow-y:auto;
+}
+tr
+{
+    width:100%;
+    font-weight: bold;
+    padding-left:10px;
+    overflow-x:auto;
+    overflow-y:auto;
+    color:black;
+    box-shadow:inset 0 0 8px black;
+    color:white;
+    background-color: black;
+}
 th,td
 {
+    font-weight: bold;
     font-family: 'Nanum Gothic',sans-serif;
-    /* border-bottom: 1px solid #444444; */
     padding-left:10px;
     padding:10px;
     text-align:center;
-    /* border:1px solid grey;  */
     overflow-x:auto;
     overflow-y:auto;
-    /* border-radius:16px; */
-    /* box-shadow:inset 0 0 8px DodgerBlue; */
+    border:2px solid black;
 }
 thead tr
 {
     font-family: 'Nanum Gothic',sans-serif;
     padding-left:10px;
     font-weight: bold;
-    background-color:black;
-    color:#ffffff;
+    background-color: tan;
+    color:black;
     overflow-x:auto;
     overflow-y:auto;
     height:70px;
-    /* border-radius:16px; */
 }
 #mainpage
 {
     font-family: 'Nanum Gothic',sans-serif;
     width:35%;
 }
-tr
+#image_gamachi
 {
     padding-left:10px;
-    font-weight: 550;
-    overflow-x:auto;
-    overflow-y:auto;
-    background-color:lightskyblue;
-    color:#ffffff;
-    /* border-radius:16px; */
-    box-shadow:inset 0 0 8px black;
 }
-h3
+#image_gukbap
 {
-    font-family: 'Nanum Gothic',sans-serif;
-    font-size:30px;
-    color:grey;
-    border-bottom:3px solid grey; 
-    padding:5px;
+    padding-left:10px;
 }
-#Nutrition_Information
+#image_mcdonald
 {
-    overflow-x:auto;
+    padding-left:10px;
 }
-h4
+#image_momstouch
 {
-    font-family: 'Nanum Gothic',sans-serif;
-    font-size:30px;
-    color:grey;
-    border-bottom:3px solid black;
-    padding:5px;
+    padding-left:10px;
 }
-#Allergy
+#image_subway
 {
-    overflow-x:auto;
+    padding-left:10px;
 }
 @media(max-width:780px)
 {
@@ -173,22 +229,6 @@ h4
     ol
     {
         border-right:none;
-    }
-    h1
-    {
-        border-bottom:none;
-    }
-    h2
-    {
-        border-bottom:none;
-    }
-    h3
-    {
-        border-bottom:none;
-    }
-    h4
-    {
-        border-bottom:none;
     }
     #ingredient
     {
